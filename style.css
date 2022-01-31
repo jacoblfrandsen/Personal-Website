@@ -1,0 +1,126 @@
+.bg-dark {
+  background-color: rgb(63, 85, 126) !important;
+  color: #f8f8de !important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #f8f8de !important;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(63, 85, 126);
+  color: #f8f8de;
+  text-align: center;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.contact {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.box {
+  border: 3px solid rgb(63, 85, 126);
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.header {
+  padding: auto;
+  text-align: center;
+}
+
+.content {
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+
+img {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px 10px;
+  margin: .5em;
+}
+
+.title {
+  text-align: center;
+}
+
+.footer a:link {
+  color: #f8f8de;
+  text-decoration: none;
+}
+
+.footer a:visited {
+  color: rgba(255, 255, 255, 0.8);
+
+}
+
+.footer a:hover {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.item {
+  background: rgb(255, 255, 255);
+  padding: .5em;
+  margin: 0 0 .5em;
+  height: 200%;
+}
+
+.masonry {
+  margin: .5em auto;
+  max-width: 7680px;
+  column-gap: .3em;
+}
+
+.title {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Masonry on large screens */
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  .masonry {
+    column-count: 1;
+  }
+}
